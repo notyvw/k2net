@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MasterUserController;
-use App\Http\Controllers\CustomController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +19,9 @@ use App\Http\Controllers\CustomController;
 //     return view('dashboard');
 // });
 
-Route::get('/dashboard', [HomeController::class, 'index'])->name('dashboard');
+// Route::get('/', [HomeController::class, 'guest'])->name('dashboard');
+
+Route::get('/', [HomeController::class, 'guest'])->name('dashboard')->withoutMiddleware(['auth']);
 
 Auth::routes();
 
@@ -45,8 +47,8 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
     Route::resource('/admin/masteruser', MasterUserController::class);
     Route::get('/admin/masteruser', [MasterUsercontroller::class, 'index'])->name('masteruser.index');
 
-    Route::resource('/admin/custom', CustomController::class);
-    Route::get('/admin/custom', [Customcontroller::class, 'index'])->name('custom.index');
+    Route::resource('/admin/contact', ContactController::class);
+    Route::get('/admin/contact', [Contactcontroller::class, 'index'])->name('contact.index');
 
 });
 
