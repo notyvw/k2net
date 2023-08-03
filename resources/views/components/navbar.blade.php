@@ -12,19 +12,19 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li id="menu-item-46988" class="new-mega-menu menu-col-3 nav item">
-                <a href="#product" data-scroll class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:p-0 aria-current="page">Product</a>
+                <a href="#product" data-scroll class="block py-2 pl-3 pr-4 text-white transform transition-transform hover:scale-110 rounded md:bg-transparent md:p-0 aria-current="page">Product</a>
             </li>
             <li>
-              <a href="#service" data-scroll class="block py-2 pl-3 pr-4 text-white rounded  md:border-0 md:p-0">Services</a>
+              <a href="#service" data-scroll class="block py-2 pl-3 pr-4 text-white transform transition-transform hover:scale-110 rounded  md:border-0 md:p-0">Services</a>
             </li>
             <li>
-                <a href="#pricing" data-scroll class="block py-2 pl-3 pr-4 text-white rounded  md:border-0 md:p-0">Pricing</a>
+                <a href="#pricing" data-scroll class="block py-2 pl-3 pr-4 text-white transform transition-transform hover:scale-110 rounded  md:border-0 md:p-0">Pricing</a>
             </li>
             <li>
-                <a href="#contact" data-scroll class="block py-2 pl-3 pr-4 text-white rounded  md:border-0 md:p-0">Contact</a>
+                <a href="#contact" data-scroll class="block py-2 pl-3 pr-4 text-white transform transition-transform hover:scale-110 rounded  md:border-0 md:p-0">Contact</a>
             </li>
             <li>
-              <a href="#aboutus" data-scroll class="block py-2 pl-3 pr-4 text-white rounded  md:border-0 md:p-0">About Us</a>
+              <a href="#aboutus" data-scroll class="block py-2 pl-3 pr-4 text-white transform transition-transform hover:scale-110 rounded  md:border-0 md:p-0">About Us</a>
             </li>
             <li>
             @if(auth()->check())
