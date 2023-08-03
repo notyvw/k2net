@@ -1,0 +1,1510 @@
+.experiences-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .experiences-experiences {
+    width: 1440px;
+    height: 957px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-image: linear-gradient(180deg, rgba(14, 31, 42, 1) 0%, rgba(17, 23, 33, 1) 100%);
+  }
+  .experiences-rectangle1710 {
+    top: 358px;
+    left: 123px;
+    width: 1192px;
+    height: 492px;
+    opacity: 0.30;
+    position: absolute;
+  }
+  .experiences-rectangle1711 {
+    top: 914px;
+    left: 123px;
+    width: 1192px;
+    height: 395px;
+    opacity: 0.30;
+    position: absolute;
+  }
+  .experiences-rectangle1713 {
+    top: 1836px;
+    left: 123px;
+    width: 1192px;
+    height: 417px;
+    opacity: 0.30;
+    position: absolute;
+  }
+  .experiences-group2167 {
+    top: 97.85401153564453px;
+    left: 588px;
+    width: 265px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-group2166 {
+    top: 0px;
+    left: 0px;
+    width: 265px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text01 {
+    font-weight: 700;
+  }
+  .experiences-eduqat-experience {
+    top: 359px;
+    left: 79px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle1704 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology1 {
+    top: -20px;
+    left: -152.49627685546875px;
+    width: 613.335693359375px;
+    height: 599.0074462890625px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector90 {
+    top: 0px;
+    left: 0px;
+    width: 613px;
+    height: 599px;
+    position: absolute;
+  }
+  .experiences-vector91 {
+    top: 332.99562108318787px;
+    left: 91.10518088722893px;
+    width: 130px;
+    height: 121px;
+    position: absolute;
+  }
+  .experiences-vector9-vector9191 {
+    top: 30.272309968291665px;
+    left: 8.282300268867402px;
+    width: 569px;
+    height: 555px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91182 {
+    top: 60.54461993658333px;
+    left: 16.564600537734805px;
+    width: 525px;
+    height: 510px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91273 {
+    top: 90.816929904875px;
+    left: 24.846900806602207px;
+    width: 481px;
+    height: 466px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91364 {
+    top: 121.08923987316666px;
+    left: 33.12920107546961px;
+    width: 437px;
+    height: 422px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91455 {
+    top: 151.36154984145833px;
+    left: 41.41150134433701px;
+    width: 393px;
+    height: 378px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91545 {
+    top: 181.63407124172954px;
+    left: 49.693679542891914px;
+    width: 349px;
+    height: 335px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91636 {
+    top: 211.9063812100212px;
+    left: 57.975979811759316px;
+    width: 305px;
+    height: 292px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91727 {
+    top: 242.17869117831287px;
+    left: 66.25828008062672px;
+    width: 262px;
+    height: 249px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91818 {
+    top: 272.45100114660454px;
+    left: 74.54058034949412px;
+    width: 218px;
+    height: 206px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91909 {
+    top: 302.7233111148962px;
+    left: 82.82288061836152px;
+    width: 174px;
+    height: 163px;
+    position: absolute;
+  }
+  .experiences-text03 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text05 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group2168 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text12 {
+    top: 414px;
+    left: 94px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience1 {
+    top: 359px;
+    left: 79px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17041 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology11 {
+    top: -20px;
+    left: -152.49627685546875px;
+    width: 613.335693359375px;
+    height: 599.0074462890625px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector901 {
+    top: 0px;
+    left: 0px;
+    width: 613px;
+    height: 599px;
+    position: absolute;
+  }
+  .experiences-vector911 {
+    top: 332.99562108318787px;
+    left: 91.10518088722893px;
+    width: 130px;
+    height: 121px;
+    position: absolute;
+  }
+  .experiences-vector9-vector91911 {
+    top: 30.272309968291665px;
+    left: 8.282300268867402px;
+    width: 569px;
+    height: 555px;
+    position: absolute;
+  }
+  .experiences-vector9-vector911821 {
+    top: 60.54461993658333px;
+    left: 16.564600537734805px;
+    width: 525px;
+    height: 510px;
+    position: absolute;
+  }
+  .experiences-vector9-vector912731 {
+    top: 90.816929904875px;
+    left: 24.846900806602207px;
+    width: 481px;
+    height: 466px;
+    position: absolute;
+  }
+  .experiences-vector9-vector913641 {
+    top: 121.08923987316666px;
+    left: 33.12920107546961px;
+    width: 437px;
+    height: 422px;
+    position: absolute;
+  }
+  .experiences-vector9-vector914551 {
+    top: 151.36154984145833px;
+    left: 41.41150134433701px;
+    width: 393px;
+    height: 378px;
+    position: absolute;
+  }
+  .experiences-vector9-vector915451 {
+    top: 181.63407124172954px;
+    left: 49.693679542891914px;
+    width: 349px;
+    height: 335px;
+    position: absolute;
+  }
+  .experiences-vector9-vector916361 {
+    top: 211.9063812100212px;
+    left: 57.975979811759316px;
+    width: 305px;
+    height: 292px;
+    position: absolute;
+  }
+  .experiences-vector9-vector917271 {
+    top: 242.17869117831287px;
+    left: 66.25828008062672px;
+    width: 262px;
+    height: 249px;
+    position: absolute;
+  }
+  .experiences-vector9-vector918181 {
+    top: 272.45100114660454px;
+    left: 74.54058034949412px;
+    width: 218px;
+    height: 206px;
+    position: absolute;
+  }
+  .experiences-vector9-vector919091 {
+    top: 302.7233111148962px;
+    left: 82.82288061836152px;
+    width: 174px;
+    height: 163px;
+    position: absolute;
+  }
+  .experiences-text14 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text16 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21681 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text23 {
+    top: 414px;
+    left: 94px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience2 {
+    top: 359px;
+    left: 399px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17042 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology2 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector92 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector93 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector9391 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93182 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93273 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93364 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93455 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93545 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93636 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93727 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93818 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93909 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text25 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text27 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21682 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text34 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience3 {
+    top: 359px;
+    left: 399px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17043 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology21 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector921 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector931 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93911 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector931821 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector932731 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector933641 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector934551 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector935451 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector936361 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector937271 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector938181 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector939091 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text36 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text38 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21683 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text45 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience4 {
+    top: 359px;
+    left: 739px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17044 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology22 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector922 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector932 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93912 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector931822 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector932732 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector933642 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector934552 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector935452 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector936362 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector937272 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector938182 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector939092 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text47 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text49 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21684 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text56 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience5 {
+    top: 359px;
+    left: 739px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17045 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology23 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector923 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector933 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93913 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector931823 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector932733 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector933643 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector934553 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector935453 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector936363 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector937273 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector938183 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector939093 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text58 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text60 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21685 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text67 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience6 {
+    top: 359px;
+    left: 1079px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17046 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology24 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector924 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector934 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93914 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector931824 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector932734 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector933644 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector934554 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector935454 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector936364 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector937274 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector938184 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector939094 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text69 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text71 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21686 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text78 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-eduqat-experience7 {
+    top: 359px;
+    left: 1079px;
+    width: 259px;
+    height: 491px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(49, 155, 168, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .experiences-rectangle17047 {
+    top: 0px;
+    left: 0px;
+    width: 1191px;
+    height: 491px;
+    position: absolute;
+    border-radius: 12px;
+  }
+  .experiences-topology25 {
+    top: 535.87890625px;
+    left: -418px;
+    width: 647px;
+    height: 658px;
+    display: flex;
+    opacity: 0.50;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .experiences-vector925 {
+    top: 0px;
+    left: 0px;
+    width: 647px;
+    height: 658px;
+    position: absolute;
+  }
+  .experiences-vector935 {
+    top: -48.30540782085882px;
+    left: 405.0706243090608px;
+    width: 98px;
+    height: 101px;
+    position: absolute;
+  }
+  .experiences-vector9-vector93915 {
+    top: -4.2093673927857935px;
+    left: 36.31326710288329px;
+    width: 597px;
+    height: 606px;
+    position: absolute;
+  }
+  .experiences-vector9-vector931825 {
+    top: -8.429445935851163px;
+    left: 73.94563656164473px;
+    width: 546px;
+    height: 552px;
+    position: absolute;
+  }
+  .experiences-vector9-vector932735 {
+    top: -12.63881478458643px;
+    left: 110.25890489667654px;
+    width: 496px;
+    height: 500px;
+    position: absolute;
+  }
+  .experiences-vector9-vector933645 {
+    top: -17.50493914539311px;
+    left: 147.1279757147504px;
+    width: 446px;
+    height: 448px;
+    position: absolute;
+  }
+  .experiences-vector9-vector934555 {
+    top: -21.725016232509006px;
+    left: 184.76034394136332px;
+    width: 395px;
+    height: 395px;
+    position: absolute;
+  }
+  .experiences-vector9-vector935455 {
+    top: -25.934390905042164px;
+    left: 221.0736172049892px;
+    width: 345px;
+    height: 343px;
+    position: absolute;
+  }
+  .experiences-vector9-vector936365 {
+    top: -30.80046867546571px;
+    left: 257.9426485943104px;
+    width: 294px;
+    height: 291px;
+    position: absolute;
+  }
+  .experiences-vector9-vector937275 {
+    top: -35.00983170040308px;
+    left: 294.25591200074814px;
+    width: 245px;
+    height: 239px;
+    position: absolute;
+  }
+  .experiences-vector9-vector938185 {
+    top: -39.229955377902115px;
+    left: 331.8883196561137px;
+    width: 194px;
+    height: 186px;
+    position: absolute;
+  }
+  .experiences-vector9-vector939095 {
+    top: -44.09603314832566px;
+    left: 368.7573510454349px;
+    width: 145px;
+    height: 139px;
+    position: absolute;
+  }
+  .experiences-text80 {
+    top: 186px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Bold;
+    text-align: left;
+    font-family: M PLUS 1;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text82 {
+    top: 218px;
+    left: 13px;
+    color: rgba(255, 255, 255, 1);
+    width: 252px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Mplus 1p Bold;
+    font-weight: 700;
+    line-height: 185.0000023841858%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-group21687 {
+    top: 402px;
+    left: 87px;
+    width: 99px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(1, 23, 38, 1);
+  }
+  .experiences-text89 {
+    top: 414px;
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .experiences-text91 {
+    top: 158px;
+    left: 419px;
+    color: rgba(54, 54, 54, 1);
+    width: 600px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Medium;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }

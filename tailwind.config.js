@@ -6,7 +6,16 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            figtree: ["Figtree", "sans-serif"],
+        },
+        colors: {
+            primary: "#375878",
+            grey: "#9EB5CB",
+            "primary-black": "#26343B",
+        },
+    },
   },
   plugins: [
     require('flowbite/plugin')

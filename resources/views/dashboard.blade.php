@@ -7,12 +7,26 @@
     @include('components.navbar')
 
     {{-- Product --}}
-    <section id="product">
-        <div class="grid grid-cols-12 gap-4 mx-40 my-24">
-            <div class="col-span-12 text-center">
-                <p class="font-semibold text-2xl">Product</p>
-                <p class="font-medium">Tawaran produk bagi anda</p>
+    <section id="pricing">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
             </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
@@ -195,6 +209,19 @@
         #contact{fill:#ffffff}
         #service{fill:#ffffff}
     </style>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 
     <style>
         #product{fill}
