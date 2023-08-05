@@ -5,6 +5,10 @@
                 {{-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" /> --}}
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">K2 NET</span>
             </a>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold mb-2">Tentang Kami</h3>
+                <p class="text-gray-400">Kami adalah tim yang berdedikasi untuk memberikan solusi hebat kepada pelanggan kami.</p>
+              </div>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
                     <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>

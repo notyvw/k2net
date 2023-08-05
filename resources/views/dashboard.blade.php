@@ -6,29 +6,6 @@
 
     @include('components.navbar')
 
-    {{-- Product --}}
-    <section id="pricing">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
-    </section>
 
     {{-- Pricing --}}
     <section id="pricing">
@@ -70,9 +47,86 @@
         </div>
     </section>
 
+    {{-- Product --}}
+    <section id="product">
+            <div class="col-span-12 text-center">
+                <p class="font-semibold text-2xl">Our Product</p>
+                <p class="font-medium">Produk terbaik untuk anda</p>
+            </div>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Kartu Produk dengan Transisi Menggunakan Tailwind CSS</title>
+                <!-- Mengimpor Tailwind CSS -->
+                <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+                <style>
+                  /* Animasi untuk kartu produk */
+                  @keyframes slide {
+                    10% {
+                      transform: translateX(0);
+                    }
+                    25% {
+                      transform: translateX(100%);
+                    }
+                    50% {
+                      transform: translateX(200%);
+                    }
+                    75% {
+                      transform: translateX(100%);
+                    }
+                    100% {
+                      transform: translateX(0);
+                    }
+                  }
+
+                  .animate-slide {
+                    animation: slide 10s infinite;
+                  }
+                </style>
+              </head>
+
+              <body class="bg-gray-100">
+                <div class="container mx-auto px-4 py-8">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-hidden">
+                    <!-- Kartu Produk 1 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4 animate-slide">
+                      <img src="https://via.placeholder.com/200" alt="Product 1" class="w-full h-32 object-cover mb-4">
+                      <h2 class="text-lg font-semibold text-gray-800">Product 1</h2>
+                      <p class="text-gray-600 mb-2">$19.99</p>
+                      <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Beli</button>
+                    </div>
+
+                    <!-- Kartu Produk 2 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4 animate-slide">
+                      <img src="https://via.placeholder.com/200" alt="Product 2" class="w-full h-32 object-cover mb-4">
+                      <h2 class="text-lg font-semibold text-gray-800">Product 2</h2>
+                      <p class="text-gray-600 mb-2">$24.99</p>
+                      <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Beli</button>
+                    </div>
+
+                    <!-- Kartu Produk 3 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4 animate-slide">
+                      <img src="https://via.placeholder.com/200" alt="Product 3" class="w-full h-32 object-cover mb-4">
+                      <h2 class="text-lg font-semibold text-gray-800">Product 3</h2>
+                      <p class="text-gray-600 mb-2">$29.99</p>
+                      <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Beli</button>
+                    </div>
+
+                    <!-- Kartu Produk 4 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4 animate-slide">
+                      <img src="https://via.placeholder.com/200" alt="Product 4" class="w-full h-32 object-cover mb-4">
+                      <h2 class="text-lg font-semibold text-gray-800">Product 4</h2>
+                      <p class="text-gray-600 mb-2">$39.99</p>
+                      <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Beli</button>
+                    </div>
+                  </div>
+                </div>
+              </body>
+    </section>
+
     {{-- Service --}}
     <section id="service">
-        <div class="grid grid-cols-12 gap-8 mx-40 mb-24">
+        <div class="grid grid-cols-12 gap-6 mx-40 my-24">
             <div class="col-span-12 text-center">
                 <p class="font-semibold text-2xl">Our Service</p>
                 <p class="font-medium">Layanan yang kita tawarkan untuk anda</p>
@@ -194,20 +248,17 @@
         </div>
     </section>
 
+
+
     {{-- About Us--}}
     <section id="aboutus">
-        <div class="grid grid-cols-12 gap-4 mx-40 my-24">
-            <div class="col-span-12 text-center">
-                <p class="font-semibold text-2xl">About Us</p>
-            </div>
-        </div>
     </section>
-
     @include('components.footer')
 
     <style>
         #contact{fill:#ffffff}
         #service{fill:#ffffff}
+        #style{fill:#ffffff}
     </style>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
