@@ -250,9 +250,7 @@
 
 
 
-    {{-- About Us--}}
-    <section id="aboutus">
-    </section>
+
     @include('components.footer')
 
     <style>
