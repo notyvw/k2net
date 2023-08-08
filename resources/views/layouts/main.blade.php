@@ -10,8 +10,8 @@
     @vite('resources/css/app.css')
     @vite('resources/css/style.css')
 
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> --}}
 
     <script src="https://kit.fontawesome.com/26b3821ead.js" crossorigin="anonymous"></script>
 
@@ -23,6 +23,9 @@
 
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    {{-- <script src="{{ mix('js/app.js') }}"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    @stack('scripts') --}}
 </body>
 </html>
