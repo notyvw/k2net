@@ -53,106 +53,26 @@
                 <p class="font-semibold text-2xl">Our Product</p>
                 <p class="font-medium">Penawaran terbaik untuk anda</p>
             </div>
-            <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-            <style>
-              .slide-container {
-                width: 100%;
-                overflow: hidden;
-                position: relative;
-              }
-
-              .slide-wrapper {
-                display: flex;
-                transition: transform 0.5s ease-in-out;
-              }
-
-              .slide {
-                flex: 0 0 100%;
-                max-width: 100%;
-              }
-            </style>
-          </head>
-          <body class="bg-gray-100 flex justify-space-between h-screen">
-
-          <div class="w-90 max-w-48 bg-gray space-around-lg shadow-lg p-6">
-            <div class="slide-container mx-auto px-4 py-8">
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 overflow-hidden">
-              <div class="slide-wrapper">
-                <!-- Kartu Produk 1 -->
-                <div class="slide p-4 bg-white shadow-lg rounded-lg">
-                    <img src="https://via.placeholder.com/200" alt="Product 1" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                    <h2 class="text-lg font-semibold text-gray-800">Product 1</h2>
-                    <p class="text-gray-600 mb-2">$19.99</p>
-                    <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">
-                      Beli
+          <div class="grid grid-cols-12 space-around-lg p-6">
+            <div class="col-span-12 slide-container overflow-hidden relative mx-auto px-4 py-8">                
+                    <div class="slide-wrapper flex transition-transform duration-500 ease-in-out space-x-4">
+                        <!-- Kartu Produk 1 -->
+                        @foreach ($products as $product)
+                        <div class="slide flex-none p-4 bg-white shadow-xl rounded-lg animate">
+                            <img src="{{ asset($product->foto) }}" alt="Product 1" class="w-24 h-24 md:w-48 md:h-48 md:rounded-none object-cover rounded-full mx-auto">
+                            <h2 class="text-lg font-semibold text-gray-800">{{ $product->judul }}</h2>
+                            <p class="text-gray-600 mb-2">{{ $product->harga }}</p>
+                            <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">Beli</button>
+                        </div>
+                        @endforeach
+                        <!-- Tambahkan produk lebih lanjut di sini -->
+                    </div>
+                <div class="flex justify-center mt-4">
+                    <button class="prev-btn px-3 py-2 bg-blue-500 text-white rounded-lg mr-3 focus:outline-none">Previous</button>
+                    <button class="next-btn px-3 py-2 bg-blue-500 text-white rounded-lg focus:outline-none">Next</button>
                 </div>
-                <!-- Kartu Produk 2 -->
-                <div class="slide bg-white shadow-lg rounded-lg p-4 animate">
-                    <img src="https://via.placeholder.com/200" alt="Product 2" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                    <h2 class="text-lg font-semibold text-gray-800">Product 2</h2>
-                    <p class="text-gray-600 mb-2">$19.99</p>
-                    <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">
-                      Beli
-                  </div>
-
-                  <!-- Kartu Produk 3 -->
-                  <div class="slide bg-white shadow-lg rounded-lg p-4 animate">
-                    <img src="https://via.placeholder.com/200" alt="Product 3" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                    <h2 class="text-lg font-semibold text-gray-800">Product 3</h2>
-                    <p class="text-gray-600 mb-2">$19.99</p>
-                    <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">
-                      Beli
-                  </div>
-
-                  <!-- Kartu Produk 4 -->
-                  <div class="slide bg-white shadow-lg rounded-lg p-4 animate">
-                    <img src="https://via.placeholder.com/200" alt="Product 4" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                    <h2 class="text-lg font-semibold text-gray-800">Product 4</h2>
-                    <p class="text-gray-600 mb-2">$19.99</p>
-                    <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">
-                      Beli
-                  </div>
-
-                  <!-- Kartu Produk 5 -->
-                  <div class="slide bg-white shadow-lg rounded-lg p-4 animate">
-                    <img src="https://via.placeholder.com/200" alt="Product 5" class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto">
-                    <h2 class="text-lg font-semibold text-gray-800">Product 5</h2>
-                    <p class="text-gray-600 mb-2">$19.99</p>
-                    <button class="h-10 px-6 font-semibold rounded-md bg-blue-500 hover:bg-blue-600 text-white" type="submit">
-                      Beli
-                  </div>
-                <!-- Tambahkan produk lebih lanjut di sini -->
-              </div>
             </div>
-
-            <div class="flex justify-center mt-4">
-              <button class="prev-btn px-3 py-2 bg-blue-500 text-white rounded-lg mr-3 focus:outline-none">Previous</button>
-              <button class="next-btn px-3 py-2 bg-blue-500 text-white rounded-lg focus:outline-none">Next</button>
-            </div>
-          </div>
-
-          <script>
-            const prevBtn = document.querySelector(".prev-btn");
-            const nextBtn = document.querySelector(".next-btn");
-            const slideWrapper = document.querySelector(".slide-wrapper");
-            const slides = document.querySelectorAll(".slide");
-
-            let currentIndex = 0;
-
-            nextBtn.addEventListener("click", () => {
-              if (currentIndex < slides.length - 1) {
-                currentIndex++;
-                slideWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
-              }
-            });
-
-            prevBtn.addEventListener("click", () => {
-              if (currentIndex > 0) {
-                currentIndex--;
-                slideWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
-              }
-            });
-          </script>
+        </div>
     </section>
 
  {{-- Service --}}
@@ -286,7 +206,32 @@
         #style{fill:#ffffff}
     </style>
 
-    <style>
-    </style>
+    <script>
+        const prevBtn = document.querySelector(".prev-btn");
+        const nextBtn = document.querySelector(".next-btn");
+        const slideWrapper = document.querySelector(".slide-wrapper");
+        const slides = document.querySelectorAll(".slide");
+
+        let currentIndex = 0;
+
+        function updateSlidePosition() {
+            const slideWidth = slides[0].offsetWidth;
+            const newPosition = -currentIndex * slideWidth;
+            slideWrapper.style.transform = `translateX(${newPosition}px)`;
+        }
+
+        nextBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSlidePosition();
+        });
+
+        prevBtn.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateSlidePosition();
+        });
+
+        // Inisialisasi posisi slide saat pertama kali dimuat
+        updateSlidePosition();
+    </script>
 
 @endsection

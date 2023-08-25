@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MasterUserController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,10 +46,13 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
     Route::get('/admin/home', [HomeController::class, 'adminHome'])->name('admin.home');
 
     Route::resource('/admin/masteruser', MasterUserController::class);
-    Route::get('/admin/masteruser', [MasterUsercontroller::class, 'index'])->name('masteruser.index');
+    Route::get('/admin/masteruser', [MasterUserController::class, 'index'])->name('masteruser.index');
 
     Route::resource('/admin/contact', ContactController::class);
-    Route::get('/admin/contact', [Contactcontroller::class, 'index'])->name('contact.index');
+    Route::get('/admin/contact', [ContactController::class, 'index'])->name('contact.index');
+
+    Route::resource('/admin/product', ProductController::class);
+    Route::get('/admin/product', [ProductController::class, 'index'])->name('product.index');
 
 });
 

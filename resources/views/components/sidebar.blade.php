@@ -31,7 +31,7 @@
                          <a href="{{ route('contact.index') }}" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Contact</a>
                       </li>
                       <li>
-                         <a href="#" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Pricing</a>
+                         <a href="{{ route('product.index') }}" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Product</a>
                       </li>
                       <li>
                          <a href="#" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Invoice</a>
