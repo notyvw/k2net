@@ -24,4 +24,10 @@ class MessageController extends Controller
 
         return redirect()->back()->with('success', 'Pesan berhasil dikirim');;
     }
+
+    public function show($id)
+    {
+        $message = Message::select('*')->where('id', $id)->first();        
+        return view('admin.message.show', compact('message'));
+    }
 }
