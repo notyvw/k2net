@@ -6,6 +6,7 @@ use App\Http\Controllers\MasterUserController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\PricingController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,6 +58,9 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 
     Route::resource('/admin/message', MessageController::class);
     Route::get('/admin/message', [MessageController::class, 'index'])->name('message.index');
+
+    Route::resource('/admin/pricing', PricingController::class);
+    Route::get('/admin/pricing', [PricingController::class, 'index'])->name('pricing.index');
 
 });
 

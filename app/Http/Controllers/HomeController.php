@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Contact;
 use App\Models\Product;
+use App\Models\Pricing;
 // use App\Models\Message;
 
 class HomeController extends Controller
@@ -29,14 +30,16 @@ class HomeController extends Controller
     public function guest(){
         $contact = Contact::first();
         $products = Product::all();
-        return view('dashboard', compact('contact', 'products'));
+        $pricings = Pricing::all();
+        return view('dashboard', compact('contact', 'products', 'pricings'));
     }
 
     public function index()
     {
         $contact = Contact::first();
         $products = Product::all();
-        return view('home', compact('contact', 'products'));
+        $pricings = Pricing::all();
+        return view('home', compact('contact', 'products', 'pricings'));
     }
 
     /**

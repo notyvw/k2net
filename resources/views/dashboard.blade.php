@@ -14,36 +14,20 @@
                 <p class="font-semibold text-2xl">Our Pricing</p>
                 <p class="font-medium">Penawaran terbaik untuk anda</p>
             </div>
+            @foreach ($pricings as $pricing)
             <div class="col-span-4 text-center bg-white rounded-xl drop-shadow-xl shadow-lg shadow-gray-400">
-                <p class="font-semibold text-2xl uppercase tracking-widest p-6 bg-blue-500 text-white rounded-t-xl">Basic</p>
-                <p class="font-semibold text-2xl tracking-wide my-10">20k/Project</p>
+                <p class="font-semibold text-2xl uppercase tracking-widest p-6 bg-blue-500 text-white rounded-t-xl">{{ $pricing->title }}</p>
+                <p class="font-semibold text-2xl tracking-wide my-10">{{ $pricing->price }}</p>
                 <div class="space-y-2">
-                    <p>10 Graphic Content</p>
-                    <p>Design Theme</p>
-                    <p>5 Photo Product</p>
+                    <p>{{ $pricing->info1 }}</p>
+                    <p>{{ $pricing->info2 }}</p>
+                    <p>{{ $pricing->info3 }}</p>
                 </div>
-                <button class="py-1 px-4 font-medium  bg-blue-500 rounded-lg my-10 text-white">Get This</button>
-            </div>
-            <div class="col-span-4 text-center bg-blue-500 rounded-xl drop-shadow-xl shadow-lg shadow-gray-400">
-                <p class="font-semibold text-2xl uppercase tracking-widest p-6 bg-white text-blue-500 rounded-t-xl">Standard</p>
-                <p class="font-semibold text-2xl tracking-wide my-10 text-white">20k/Project</p>
-                <div class="space-y-2 text-white">
-                    <p>10 Graphic Content</p>
-                    <p>Design Theme</p>
-                    <p>5 Photo Product</p>
+                <div class="my-10">
+                    <a href="#" class="py-1 px-4 font-medium  bg-blue-500 rounded-lg text-white">Get This</a>                    
                 </div>
-                <button class="py-1 px-4 font-medium  bg-white rounded-lg my-10 text-blue-500">Get This</button>
-            </div>
-            <div class="col-span-4 text-center bg-white rounded-xl drop-shadow-xl shadow-lg shadow-gray-400">
-                <p class="font-semibold text-2xl uppercase tracking-widest p-6 bg-blue-500 text-white rounded-t-xl">Premium</p>
-                <p class="font-semibold text-2xl tracking-wide my-10">20k/Project</p>
-                <div class="space-y-2">
-                    <p>10 Graphic Content</p>
-                    <p>Design Theme</p>
-                    <p>5 Photo Product</p>
-                </div>
-                <button class="py-1 px-4 font-medium  bg-blue-500 rounded-lg my-10 text-white">Get This</button>
-            </div>
+            </div>                
+            @endforeach
         </div>
     </section>
 
