@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MasterUserController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MessageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -53,6 +54,9 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 
     Route::resource('/admin/product', ProductController::class);
     Route::get('/admin/product', [ProductController::class, 'index'])->name('product.index');
+
+    Route::resource('/admin/message', MessageController::class);
+    Route::get('/admin/message', [MessageController::class, 'index'])->name('message.index');
 
 });
 

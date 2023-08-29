@@ -165,32 +165,35 @@
           <div class="flex justify-end w-full">
               <div class="pl-28 bg-white w-10/12">
                   <p class="pl-20 pt-10 text-xl font-semibold tracking-wide">Send a Message</p>
-                  <div class="grid grid-cols-2 gap-10 px-20 py-10">
-                      <div class="col-span-1 border-b border-gray-900 py-2">
-                          <label class="text-lg font-semibold text-blue-500" for="name">Your Name</label>
-                          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter your name" aria-label="Your Name">
-                      </div>
-                      <div class="col-span-1 border-b border-gray-900 py-2">
-                          <label class="text-lg font-semibold text-blue-500" for="number">Phone Number</label>
-                          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter your phone number" aria-label="Your Phone Number">
-                      </div>
-                      <div class="col-span-1 border-b border-gray-900 py-2">
-                          <label class="text-lg font-semibold text-blue-500" for="subject">Subject</label>
-                          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter your subject" aria-label="Your Subject">
-                      </div>
-                      <div class="col-span-1 border-b border-gray-900 py-2">
-                          <label class="text-lg font-semibold text-blue-500" for="email">Email</label>
-                          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter your email address" aria-label="Your Email">
-                      </div>
-                      <div class="col-span-2 border-b border-gray-900 py-2">
-                          <label class="text-lg font-semibold text-blue-500" for="message">Write your message here..</label>
-                          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Write your message" aria-label="Your Message">
-                      </div>
-                      <div>
+                  <form action="{{ route('message.store') }}" method="POST" enctype="multipart/form-data">
+                    <div class="grid grid-cols-2 gap-10 px-20 py-10">
+                        @csrf
+                        <div class="col-span-1 border-b border-gray-900 py-2">
+                            <label class="text-lg font-semibold text-blue-500" for="name">Your Name</label>
+                            <input type="text" name="name" placeholder="Enter your name" aria-label="Your Name" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                        </div>
+                        <div class="col-span-1 border-b border-gray-900 py-2">
+                            <label class="text-lg font-semibold text-blue-500" for="number">Phone Number</label>
+                            <input type="text" name="phone" placeholder="Enter your phone number" aria-label="Your Phone Number" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                        </div>
+                        <div class="col-span-1 border-b border-gray-900 py-2">
+                            <label class="text-lg font-semibold text-blue-500" for="subject">Subject</label>
+                            <input type="text" name="subject" placeholder="Enter your subject" aria-label="Your Subject" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                        </div>
+                        <div class="col-span-1 border-b border-gray-900 py-2">
+                            <label class="text-lg font-semibold text-blue-500" for="email">Email</label>
+                            <input type="text" name="email" placeholder="Enter your email address" aria-label="Your Email" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                        </div>
+                        <div class="col-span-2 border-b border-gray-900 py-2">
+                            <label class="text-lg font-semibold text-blue-500" for="message">Write your message here..</label>
+                            <input type="text" name="letter" placeholder="Write your message" aria-label="Your Message" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none">
+                        </div>
+                        <div>
 
-                      </div>
-                      <button class="p-4 bg-blue-500 text-white font-semibold rounded-md">Send Message</button>
-                  </div>
+                        </div>
+                        <button type="submit" class="p-4 bg-blue-500 text-white font-semibold rounded-md">Send Message</button>
+                    </div>
+                </form>
               </div>
           </div>
       </div>

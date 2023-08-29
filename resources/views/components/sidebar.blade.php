@@ -27,16 +27,19 @@
                     </svg>
                 </button>
                 <ul id="dropdown-example" class="hidden py-2 space-y-2 font-medium">
-                      <li>
-                         <a href="{{ route('contact.index') }}" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Contact</a>
-                      </li>
-                      <li>
+                   <li>
+                      <a href="{{ route('contact.index') }}" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Contact</a>
+                     </li>
+                     <li>
                          <a href="{{ route('product.index') }}" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Product</a>
-                      </li>
-                      <li>
-                         <a href="#" class="flex items-center w-full p-2 transition duration-75 rounded-lg pl-11 group text-white hover:bg-gray-700">Invoice</a>
-                      </li>
+                        </li>
                 </ul>
+               </li>
+            <li>
+               <a href="{{ route('message.index') }}" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 group">
+                  <i class="fa-solid fa-message"></i>
+                  <span class="ml-3 font-medium">Message</span>
+               </a>
             </li>
             <li>
                 <form action="{{ route('logout') }}" method="POST" class="group">
