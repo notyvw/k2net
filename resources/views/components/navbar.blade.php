@@ -1,9 +1,9 @@
 
-<nav class="h-screen bg-blue-500 border-gray-200 dark:bg-gray-900 overflow-hidden">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-24 p-4 z-50">
+<nav class="md:h-screen bg-blue-500 border-gray-200 dark:bg-gray-900 overflow-hidden">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between sm:mx-24 p-4 z-50">
       <a href="https://flowbite.com/" class="flex items-center">
           {{-- <img src="Cyber Security.png" /> --}}
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">K2 NET</span>
+          <span class="self-center sm:text-2xl font-semibold whitespace-nowrap text-white">K2 NET</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -52,9 +52,9 @@
         </ul>
       </div>
 
-      <div class="grid grid-cols-2 mt-24">
-        <div>
-            <p class="text-white font-semibold text-6xl leading-relaxed">Kemudahan Layanan Jaringan Terjangkau & Fleksibel</p>
+      <div class="hidden md:grid md:grid-cols-2 sm:mt-24">
+        <div class="col-span-2 sm:col-span-1">
+            <p class="text-white font-semibold sm:text-6xl leading-relaxed">Kemudahan Layanan Jaringan Terjangkau & Fleksibel</p>
         </div>
         <div class="flex justify-end items-end">
             <img src="{{ asset('icon.png') }}" alt="">

@@ -7,11 +7,11 @@
 @include('components.sidebar')
 
 <div class="grid grid-cols-12 p-4 sm:ml-64">
-    <div class="col-span-3 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
+    <div class="col-span-12 sm:col-span-3 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
         <h1 class="font-semibold text-2xl align-middle">Contact Information</h1>
     </div>
-    <div class="col-span-9"></div>
-    <div class="col-span-6 relative font-semibold p-4 space-y-4 bg-white rounded-md">
+    <div class="col-span-9 hidden sm:block"></div>
+    <div class="col-span-12 sm:col-span-6 relative font-semibold p-4 space-y-4 bg-white rounded-md">
         <div class="flex space-x-4 items-center text-lg">
             <i class="fa-solid fa-location-dot"></i>
             <p class="">{{ $contact->alamat }}</p>

@@ -7,12 +7,15 @@
 @include('components.sidebar')
 
 <div class="grid grid-cols-12 p-4 sm:ml-64">
-    <div class="col-span-3 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
+    <div class="col-span-12 sm:col-span-3 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
         <h1 class="font-semibold text-2xl align-middle">Product</h1>
     </div>
     <div class="col-span-12 grid grid-cols-12 gap-4">
+        <div class="col-span-12 flex justify-center py-6">
+            <a href="{{ route('product.create') }}" class="font-medium px-4 py-2 bg-green-400 text-white rounded-md">Tambah Produk</a>
+        </div>
         @foreach ($products as $product)
-        <div class="col-span-4 bg-white rounded-md p-4">
+        <div class="col-span-12 sm:col-span-4 bg-white rounded-md p-4">
             <div class="mb-4">
                 <img src="{{ asset($product->foto) }}" alt="" class="w-48 h-48 object-cover mx-auto rounded">
             </div>
@@ -32,11 +35,8 @@
                 </div>
             </div>
 
-        </div>            
+        </div>
         @endforeach
-    </div>
-    <div class="col-span-12 flex justify-center py-6">
-        <a href="{{ route('product.create') }}" class="font-medium px-4 py-2 bg-green-400 text-white rounded-md">Tambah Produk</a>
     </div>
 </div>
 

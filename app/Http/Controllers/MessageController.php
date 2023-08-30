@@ -7,6 +7,11 @@ use App\Models\Message;
 
 class MessageController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {   $messages = Message::all();
         return view('admin.message.index', compact('messages'));
@@ -27,7 +32,7 @@ class MessageController extends Controller
 
     public function show($id)
     {
-        $message = Message::select('*')->where('id', $id)->first();        
+        $message = Message::select('*')->where('id', $id)->first();
         return view('admin.message.show', compact('message'));
     }
 }

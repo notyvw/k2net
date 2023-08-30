@@ -7,7 +7,7 @@
 @include('components.sidebar')
 
 <div class="grid grid-cols-12 p-4 sm:ml-64">
-    <div class="col-span-2 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
+    <div class="col-span-12 sm:col-span-2 mb-4 p-2 text-center text-white bg-gray-700 rounded-md">
         <h1 class="font-semibold text-2xl align-middle">Master User</h1>
     </div>
     <div class="col-span-12">
